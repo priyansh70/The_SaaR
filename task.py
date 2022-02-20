@@ -17,6 +17,7 @@ while True:
 	Press 11: For Know Summary of Session 11
 	Press 12: For Know Summary of Session 12
 	Press 13: For Know Summary of Session 13
+	Press 14: For Know Summary of Session 14
 	Press 0 : For Exit
 	""")
 
@@ -164,9 +165,22 @@ while True:
 		Download httpd
 		What is need of Webserver
 		How to Configure WebServer
-		""")	
+		""")
+	
+	elif choice == 14:
+		print("\n\t\t\t----Session 14 Summary----")
+		print("""
+		In Session 14 - I Learn About
+		What is Storage?
+		Types of Storage - 
+		1 - Object Storage (ex:- Google Drive)
+		2 - Block Storage (ex:- Local Drive)
+		3 - File Storage (ex:- Files)
+		Run Some Linux Commands
+		Difference between C and D Drive
+		Know about EC2 , S3 & EBS			
+		""")
 
 	elif choice == 0:
 		os.system("exit")
 		break
-
